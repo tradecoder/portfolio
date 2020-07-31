@@ -36,16 +36,46 @@
  section#about {
 	 background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg") no-repeat fixed center;
 	 background-size: cover;
+	 width: 100%;
 }
  .lay {
 	 width: 100%;
-	 background-color: rgba(255, 255, 255, 0.8);
+	 background-color: rgba(146, 239, 239, .8);
 	 padding: 4rem 0;
 }
  .name {
-	 font-size: 6vw;
+	 font-size: 6rem;
 	 font-family: merienda;
 	 color: red;
+}
+ #avatar {
+	 width: 30%;
+}
+ #me {
+	 max-width: 100%;
+	 border-radius: 50%;
+	 transform: scaleX(-1);
+}
+ #title {
+	 align-self: center;
+	 padding: 20px 0 0 20px;
+	 width: 100%;
+}
+ @media screen and (max-width: 1024px) {
+	 .name {
+		 font-size: 5vw;
+	}
+}
+ @media screen and (max-width: 768px) {
+	 .about {
+		 flex-wrap: wrap;
+	}
+	 #avatar {
+		 margin: auto;
+	}
+	 .name {
+		 font-size: 10vw;
+	}
 }
  section#skills {
 	 padding: 2rem 0;
@@ -213,5 +243,10 @@
 }
  a {
 	 text-decoration: none !important;
+}
+@media screen and (max-width:768px){
+  .contact{
+    flex-wrap:wrap;
+  }
 }
  
