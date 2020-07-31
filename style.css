@@ -199,8 +199,8 @@
 	 display: flex;
 	 flex-grow: 1;
 	 text-align: center;
-	 background-color: rgba(255, 0, 0, .8);
-	 color: white;
+	 background-color: silver;
+	 color: #333333;
 	 margin: 2rem 10px 0 0;
 }
  .cert img {
@@ -249,4 +249,4 @@
     flex-wrap:wrap;
   }
 }
- 
+  
