@@ -53,8 +53,7 @@
 }
  #me {
 	 max-width: 100%;
-	 border-radius: 50%;
-	 transform: scaleX(-1);
+	 border-radius: 50%;	
 }
  #title {
 	 align-self: center;
