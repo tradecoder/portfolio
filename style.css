@@ -1,253 +1,253 @@
 * {
-	 box-sizing: border-box;
-	 scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
- header {
-	 min-height: 65px;
-	 background-color: rgba(255, 255, 255, 0.9);
+header {
+  min-height: 65px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
- .navbar-nav a {
-	 color: #333 !important;
-	 font-size: 1.2rem !important;
+.navbar-nav a {
+  color: #333 !important;
+  font-size: 1.2rem !important;
 }
- .navbar-nav a:after {
-	 display: block;
-	 content: "";
-	 border-bottom: solid 5px red;
-	 transform: scale(0);
-	 transition: transform 0.4s ease-in-out;
+.navbar-nav a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 5px red;
+  transform: scale(0);
+  transition: transform 0.4s ease-in-out;
 }
- .navbar-nav a:hover:after {
-	 transform: scale(1);
-	 transform-origin: 0% 50%;
+.navbar-nav a:hover:after {
+  transform: scale(1);
+  transform-origin: 0% 50%;
 }
- .navbar-nav a:after {
-	 transform-origin: 0% 50%;
+.navbar-nav a:after {
+  transform-origin: 0% 50%;
 }
- .bg-teal {
-	 background-color: teal;
+.bg-teal {
+  background-color: teal;
 }
- .bg-black {
-	 background-color: black;
+.bg-black {
+  background-color: black;
 }
- .text-red {
-	 color: red;
+.text-red {
+  color: red;
 }
- section#about {
-	 background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg") no-repeat fixed center;
-	 background-size: cover;
-	 width: 100%;
+section#about {
+  background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg")
+    no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
 }
- .lay {
-	 width: 100%;
-	 background-color: rgba(146, 239, 239, .8);
-	 padding: 4rem 0;
+.lay {
+  width: 100%;
+  background-color: rgba(146, 239, 239, 0.8);
+  padding: 4rem 0;
 }
- .name {
-	 font-size: 6rem;
-	 font-family: merienda;
-	 color: red;
+.name {
+  font-size: 3rem;
+  font-family: merienda;
+  color: red;
 }
- #avatar {
-	 width: 30%;
+#avatar {
+  width: 30%;
 }
- #me {
-	 max-width: 100%;
-	 border-radius: 50%;
-	 transform:scaleX(-1);
+#me {
+  max-width: 100%;
+  border-radius: 50%;
 }
- #title {
-	 align-self: center;
-	 padding: 20px 0 0 20px;
-	 width: 100%;
+#title {
+  padding: 20px 0 0 20px;
+  width: 100%;
 }
- @media screen and (max-width: 1024px) {
-	 .name {
-		 font-size: 5vw;
-	}
+#workAndEdu {
+  background-color: rgba(255, 255, 255, 0.9);
 }
- @media screen and (max-width: 768px) {
-	 .about {
-		 flex-wrap: wrap;
-	}
-	 #avatar {
-		 margin: auto;
-	}
-	 .name {
-		 font-size: 10vw;
-	}
-}
- section#skills {
-	 padding: 2rem 0;
-	 background-color: rgba(255, 255, 255, 0.8);
-}
- .skills {
-	 display: flex;
-	 width: 100%;
-	 flex-wrap: wrap;
-	 justify-content: center;
-	 padding: 2rem 0 0 0;
-}
- .skill-icons {
-	 border-radius: 50%;
-	 width: 50%;
-	 border: 1px solid gray;
-	 z-index: 100;
-	 transition: transform 0.5s ease-in-out;
-}
- .skill-names {
-	 margin-bottom: 3rem;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: center;
-	 align-items: center;
-	 max-height: 200px;
-	 cursor: pointer;
-}
- @media screen and (max-width: 992px) {
-	 .skill-names {
-		 max-width: 150px;
-	}
-}
- section#certification {
-	 margin: 3rem 0;
-	 background-color: rgba(2, 1, 15, 1);
-	 padding: 2rem 0;
-}
- .skill-title {
-	 position: absolute;
-	 z-index: 100;
-	 font-size: 0;
-	 transition: font-size 0.5s ease-in-out, z-index 0.5s ease-in-out;
-	 max-height: 100%;
-	 width: 180px;
-	 background-color: rgba(255, 0, 0, 0.8);
-	 color: white;
-	 border-radius: 50%;
-	 padding: 5px;
-	 z-index: -11;
-	 text-align: center;
-}
- .skill-names:hover .skill-icons, .skill-names:focus .skill-icons {
-	 transform: scale(1.8);
-	 opacity: 1;
-}
- .skill-names:hover .skill-title, .skill-names:focus .skill-title {
-	 font-size: 2rem;
-	 z-index: 11111;
-}
- .skill-names:hover .apis-title, .skill-names:focus .apis-title {
-	 font-size: 1rem !important;
-}
- #projectList .card-body {
-	 color: #333;
-	 font-size: 1rem;
-	 position: relative;
-}
- .card .card-header {
-	 padding: 0;
-}
- .card-header button {
-	 padding: 0.5rem;
-	 font-size: 1.3rem;
-	 background-color: rgba(255, 0, 0, .72);
-	 color: white;
-	 position: relative;
-	 transition: all 0.5s ease-in-out;
-}
- .card-header button:after, .card-header button.collapsed:after {
-	 content: "\f070";
-	 font-family: "Font Awesome 5 Free";
-	 text-align: center;
-	 background-color: silver;
-	 color: blue;
-	 border: 2px solid whitesmoke;
-	 font-size: 20px;
-	 font-weight: 900;
-	 width: 50px;
-	 height: 30px;
-	 line-height: 20px;
-	 border-radius: 50%;
-	 transition: all 0.2s ease-in-out;
-	 position: absolute;
-	 right: 15px;
-	 top: 10px;
-}
- .card-header button.collapsed:after {
-	 content: "\f06e";
-	 color: blue;
-}
- .card-header:hover button:after, .card-header:hover button.collapsed:after {
-	 color: black;
-	 transform: scaleY(1.2);
-	 background-color: red;
-}
- .btn-link:hover, .btn-link:focus {
-	 text-decoration: none !important;
-	 outline: none !important;
-	 color: whitesmoke;
-}
- .project-details {
-	 display: flex;
-	 justify-content: space-between;
-}
- .project-details div {
-	 width: 48%;
-}
- .cert {
-	 max-width: 45%;
-	 display: flex;
-	 flex-grow: 1;
-	 text-align: center;
-	 background-color: #c0c0c0 !important;
-	 color: #333333;
-	 margin: 2rem 10px 0 0;
-}
- .cert img {
-	 width: 100%;
-}
- .course-title {
-	 padding: 10px;
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 width: 100%;
-	 height: 60px;
-	 bottom: 0;
-	 background-color:transparent;
-}
- @media screen and (max-width: 992px) {
-	 .cert {
-		 max-width: 45%;
-	}
-}
- @media screen and (max-width: 570px) {
-	 .cert {
-		 max-width: 100%;
-	}
-}
- .contact-me {
-	 background-color: #030220;
-}
- .contact {
-	 display: flex;
-	 justify-content: space-between;
-	 align-items: center;
-	 min-height: 400px;
-	 width: 100%;
-	 text-align: left;
-	 background-color: #030220;
-	 color: white;
-	 font-size: 1.2rem;
-	 font-family: sans;
-	 letter-spacing: 1px;
-}
- a {
-	 text-decoration: none !important;
-}
-@media screen and (max-width:768px){
-  .contact{
-    flex-wrap:wrap;
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  #avatar {
+    margin: auto;
   }
 }
-  
+section#skills {
+  padding: 2rem 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.skills {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}
+.skill-icons {
+  border-radius: 50%;
+  width: 50%;
+  border: 1px solid gray;
+  z-index: 100;
+  transition: transform 0.5s ease-in-out;
+}
+.skill-names {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .skill-names {
+    max-width: 150px;
+  }
+}
+section#certification {
+  margin: 3rem 0;
+  background-color: rgba(2, 1, 15, 1);
+  padding: 2rem 0;
+}
+.skill-title {
+  position: absolute;
+  z-index: 100;
+  font-size: 0;
+  transition: font-size 0.5s ease-in-out, z-index 0.5s ease-in-out;
+  max-height: 100%;
+  width: 180px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  z-index: -11;
+  text-align: center;
+}
+.skill-names:hover .skill-icons,
+.skill-names:focus .skill-icons {
+  transform: scale(1.8);
+  opacity: 1;
+}
+.skill-names:hover .skill-title,
+.skill-names:focus .skill-title {
+  font-size: 2rem;
+  z-index: 11111;
+}
+.skill-names:hover .apis-title,
+.skill-names:focus .apis-title {
+  font-size: 1rem !important;
+}
+#projectList .card-body {
+  color: #333;
+  font-size: 1rem;
+  position: relative;
+}
+.card .card-header {
+  padding: 0;
+}
+.card-header button {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: rgba(255, 0, 0, 0.72);
+  color: white;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.card-header button:after,
+.card-header button.collapsed:after {
+  content: "\f070";
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  background-color: silver;
+  color: blue;
+  border: 2px solid whitesmoke;
+  font-size: 20px;
+  font-weight: 900;
+  width: 50px;
+  height: 30px;
+  line-height: 20px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.card-header button.collapsed:after {
+  content: "\f06e";
+  color: blue;
+}
+.card-header:hover button:after,
+.card-header:hover button.collapsed:after {
+  color: black;
+  transform: scaleY(1.2);
+  background-color: red;
+}
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: none !important;
+  outline: none !important;
+  color: whitesmoke;
+}
+.project-details {
+  display: flex;
+  justify-content: space-between;
+}
+.project-details div {
+  width: 48%;
+}
+.cert {
+  max-width: 45%;
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  background-color: silver;
+  color: #333333;
+  margin: 2rem 10px 0 0;
+}
+.cert img {
+  width: 100%;
+}
+.course-title {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  background-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  .cert {
+    max-width: 45%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .cert {
+    max-width: 100%;
+  }
+}
+.contact-me {
+  background-color: #030220;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 400px;
+  width: 100%;
+  text-align: left;
+  background-color: #030220;
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none !important;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-wrap: wrap;
+  }
+}
