@@ -40,13 +40,13 @@ section#about {
 }
 .lay {
   width: 100%;
-  background-color: rgba(0, 24, 43, 0.9);
+  background-color: rgba(146, 239, 239, 0.8);
   padding: 4rem 0;
 }
 .name {
   font-size: 3rem;
   font-family: merienda;
-  color:#E7FFFE;
+  color:red;
 }
 #avatar {
   width: 30%;
@@ -58,11 +58,9 @@ section#about {
 #title {
   padding: 20px 0 0 20px;
   width: 100%;
-  color:#E7FFFE ;
 }
 .work-type{
-  font-size:20px;
-  color:#E7FFFE;
+  font-size:24px;
 }
 #workAndEdu {
   background-color: rgba(255, 255, 255, 0.9);
