@@ -34,8 +34,7 @@ header {
   color: red;
 }
 section#about {
-  background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg")
-    no-repeat fixed center;
+  background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg") no-repeat fixed center;
   background-size: cover;
   width: 100%;
 }
@@ -47,7 +46,7 @@ section#about {
 .name {
   font-size: 3rem;
   font-family: merienda;
-  color: red;
+  color:#E7FFFE;
 }
 #avatar {
   width: 30%;
@@ -59,9 +58,11 @@ section#about {
 #title {
   padding: 20px 0 0 20px;
   width: 100%;
+  color:#E7FFFE ;
 }
 .work-type{
-font-size:20px;
+  font-size:20px;
+  color:#E7FFFE;
 }
 #workAndEdu {
   background-color: rgba(255, 255, 255, 0.9);
