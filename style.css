@@ -146,8 +146,8 @@ section#skills {
 .card-header button {
   padding: 0.5rem;
   font-size: 1.3rem;
-  background-color: rgba(255, 0, 0, 0.72);
-  color: white;
+  background-color: rgba(0,33,33, .95);
+  color: #dddddd;
   position: relative;
   transition: all 0.5s ease-in-out;
 }
@@ -265,5 +265,5 @@ a {
   color:#bbbbbb;
 }
 button small{
-color:#333333;
+color:#aaaaaa;
 }
