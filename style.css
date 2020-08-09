@@ -146,7 +146,7 @@ section#skills {
 .card-header button {
   padding: 0.5rem;
   font-size: 1.3rem;
-  background-color: rgba(0,33,33, .95);
+  background-color: rgba(0,33,44, .98);
   color: #dddddd;
   position: relative;
   transition: all 0.5s ease-in-out;
