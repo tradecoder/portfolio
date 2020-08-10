@@ -34,7 +34,7 @@ header {
   color: red;
 }
 section#about {
-  background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg") no-repeat fixed center;
+  background: url("/assets/images/global-cover.jpg") no-repeat fixed center;
   background-size: cover;
   width: 100%;
 }
@@ -135,8 +135,26 @@ section#skills {
 .skill-names:focus .apis-title {
   font-size: 1rem !important;
 }
+
+.multi-projects img{
+    width:100%;
+}
+.w-48{
+  max-width:48%;
+}
+.project-header{
+  background-color: #00182b;
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+
+
+
 #contact-me {
-  background: url("https://res.cloudinary.com/tradecoder/image/upload/v1595223546/icons/g-bg_anheou.jpg") no-repeat fixed center;
+  background: url("/assets/images/global-cover.jpg") no-repeat fixed center;
   background-size: cover;
   width: 100%;
 }
