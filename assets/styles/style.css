@@ -136,7 +136,12 @@ section#skills {
   font-size: 1rem !important;
 }
 
-
+.multi-projects img{
+  max-width:100%;
+}
+.w-48{
+  max-width:45%;
+}
 
 
 
