@@ -75,67 +75,6 @@ section#about {
     margin: auto;
   }
 }
-section#skills {
-  padding: 2rem 0;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-.skills {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem 0 0 0;
-}
-.skill-icons {
-  border-radius: 50%;
-  width: 50%;
-  border: 1px solid gray;
-  z-index: 100;
-  transition: transform 0.5s ease-in-out;
-}
-.skill-names {
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-height: 200px;
-  cursor: pointer;
-}
-@media screen and (max-width: 992px) {
-  .skill-names {
-    max-width: 150px;
-  }
-}
-
-.skill-title {
-  position: absolute;
-  z-index: 100;
-  font-size: 0;
-  transition: font-size 0.5s ease-in-out, z-index 0.5s ease-in-out;
-  max-height: 100%;
-  width: 180px;
-  background-color: rgba(255, 0, 0, 0.8);
-  color: white;
-  border-radius: 50%;
-  padding: 5px;
-  z-index: -11;
-  text-align: center;
-}
-.skill-names:hover .skill-icons,
-.skill-names:focus .skill-icons {
-  transform: scale(1.8);
-  opacity: 1;
-}
-.skill-names:hover .skill-title,
-.skill-names:focus .skill-title {
-  font-size: 2rem;
-  z-index: 11111;
-}
-.skill-names:hover .apis-title,
-.skill-names:focus .apis-title {
-  font-size: 1rem !important;
-}
 
 #projects{
   background-color:#9DD8FF;
