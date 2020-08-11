@@ -2,6 +2,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 header {
   min-height: 65px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -136,6 +137,10 @@ section#skills {
   font-size: 1rem !important;
 }
 
+#projects{
+  background-color:#9DD8FF;
+}
+
 .multi-projects img{
     width:100%;
 }
@@ -149,7 +154,7 @@ section#skills {
 }
 .project-header{
   background-color: #900C3F;
-  color: #bbbbbb;
+  color: #dddddd;
   text-align: center;
   font-size: 1.5rem;
 }
