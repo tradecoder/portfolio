@@ -142,6 +142,11 @@ section#skills {
 .w-48{
   max-width:48%;
 }
+@media screen and (max-width:425px){
+.w-48{
+  width:100%;
+}
+}
 .project-header{
   background-color: #900C3F;
   color: #bbbbbb;
