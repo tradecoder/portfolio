@@ -88,7 +88,7 @@ section#about {
 .w-48{
   max-width:48%;
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:570px){
 .w-48{
   max-width:100%;
 }
@@ -100,6 +100,28 @@ section#about {
   text-align: center;
   font-size: 1.4rem;
 }
+
+.pro-body{
+  position: relative;
+}
+.pro-layover{
+  position: absolute;
+  top:100%;
+  width:100%;
+  height:0;
+  background-color: rgba(0,0,0,.5);
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.pro-body:hover .pro-layover,
+.pro-body:focus .pro-layover{
+  top:0;
+  height:100%;
+}
+
+
 
 
 
