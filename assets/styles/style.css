@@ -63,8 +63,13 @@ section#about {
 #skills {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 60px 0;
-  font-size:18px;
+  font-size:22px;
 
+}
+
+.skills-container{
+  display: flex;
+  padding: 30px 0;
 }
 .work-type{
   font-size:24px;
