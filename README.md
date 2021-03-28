@@ -1,2 +1,1 @@
-# thetradecoder.github.io
-## Personal Portfolio of Mamun Abdullah, theTradeCoder
+# Personal Portfolio of Mamun @ TradeCoder
