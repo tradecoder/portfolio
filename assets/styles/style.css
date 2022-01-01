@@ -5,16 +5,16 @@
 
 header {
   min-height: 65px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #00182b;
 }
 .navbar-nav a {
-  color: #333 !important;
+  color: #F8F0E3 !important;
   font-size: 1.2rem !important;
 }
 .navbar-nav a:after {
   display: block;
   content: "";
-  border-bottom: solid 5px red;
+  border-bottom: solid 5px orange;
   transform: scale(0);
   transition: transform 0.4s ease-in-out;
 }
@@ -35,30 +35,34 @@ header {
   color: red;
 }
 section#about {
-  background: url("/assets/images/global-cover.jpg") no-repeat fixed center;
-  background-size: cover;
   width: 100%;
 }
 .lay {
   width: 100%;
-  background-color: rgba(146, 239, 239, 0.8);
+  background-color: #00182d;
   padding: 4rem 0;
+  height: 100vh;
+  
 }
 .name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: merienda;
-  color:red;
+  color: dodgerblue;
 }
 #avatar {
-  width: 30%;
+  width: 60%;
 }
 #me {
   max-width: 100%;
   border-radius: 50%;
 }
+
 #title {
   padding: 20px 0 0 20px;
-  width: 100%;
+  max-width: 100%;
+}
+.title{
+  color: gray;
 }
 #skills {
   background-color: rgba(255, 255, 255, 0.9);
@@ -67,17 +71,26 @@ section#about {
 
 }
 
+
 .skills-container{
   display: flex;
   padding: 30px 0;
 }
 
+.about, #education-summary{
+  width:400px;
+}
+
 @media screen and (max-width: 768px) {
-  .about {
+  .about, #education-summary{
     flex-wrap: wrap;
+    width: 100%;
   }
   #avatar {
     margin: auto;
+  }
+  #me{
+    max-width:100%;
   }
 }
 
@@ -157,21 +170,11 @@ section#about {
 }
 
 #contact-me {
-  background: url("/assets/images/global-cover.jpg") no-repeat fixed center;
-  background-size: cover;
-  width: 100%;
+  background-color: #00182d !important;
 }
 .contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   min-height: 400px;
   width: 100%;
-  text-align: left;  
-  color: #bbbbbb;
-  font-size: 1.2rem;
-  font-family: sans;
-  letter-spacing: 1px;
 }
 a {
   text-decoration: none !important;
@@ -182,11 +185,6 @@ a {
   }
 }
 
-.contactLayover{
-  width: 100%;
-  background-color: rgba(0, 0, 0, .95);
-  padding: 4rem 0;
-}
 .soft-light{
   color:#bbbbbb;
 }
@@ -195,4 +193,13 @@ color:#aaaaaa;
 }
 .m-auto{
   margin:auto;
+}
+
+.navbar-brand{
+  color:#F8F0E3 !important;
+}
+#service-list ul li{
+  font-size: 20px;
+  line-height: 2.2;
+  color: chocolate;
 }
