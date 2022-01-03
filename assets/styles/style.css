@@ -207,3 +207,7 @@ color:#aaaaaa;
   line-height: 2.2;
   color: chocolate;
 }
+
+#skills img{
+  border-radius: 50%;
+}
