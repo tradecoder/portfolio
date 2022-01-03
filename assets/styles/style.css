@@ -41,9 +41,10 @@ section#about {
   width: 100%;
   background-color: #00182d;
   padding: 4rem 0;
-  height: 100vh;
-  
-}
+ }
+ #about{
+   min-height: 100vh;
+ }
 .name {
   font-size: 2.5rem;
   font-family: merienda;
