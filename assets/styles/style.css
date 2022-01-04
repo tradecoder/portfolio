@@ -199,7 +199,11 @@ color:#aaaaaa;
 #skills img{
   border-radius: 50%;
   width: 120px;
-  padding: 5px;
+}
+
+#skill-container-div div{
+  text-align: center;
+  padding:5px;
 }
 
 
@@ -221,5 +225,8 @@ color:#aaaaaa;
 @media screen and (max-width: 500px){
   #skills img{
     width: 50px;
+  }
+  #skill-container-div div{
+    font-size: 14px;
   }
 }
