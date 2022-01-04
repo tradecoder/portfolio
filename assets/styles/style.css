@@ -86,19 +86,6 @@ section#about {
   color:black;
 }
 
-@media screen and (max-width: 768px) {
-  .about, #education-summary{
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  #avatar {
-    margin: auto;
-  }
-  #me{
-    max-width:100%;
-  }
-}
-
 #projects{
   background-color:#9DD8FF;
 }
@@ -211,5 +198,28 @@ color:#aaaaaa;
 
 #skills img{
   border-radius: 50%;
-  width: 100px;
+  width: 120px;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about, #education-summary{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #avatar {
+    margin: auto;
+  }
+  #me{
+    max-width:100%;
+  }
+  #skills img{
+    width: 80px;
+  }
+}
+@media screen and (max-width: 500px){
+  #skills img{
+    width: 50px;
+  }
 }
