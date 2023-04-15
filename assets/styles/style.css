@@ -103,7 +103,7 @@ section#about {
 }
 
 .project-header{
-  background-color: dodgerblue;
+  background-color: #00182d;
   color: #dddddd;
   text-align: center;
   font-size: 1.4rem;
@@ -111,6 +111,7 @@ section#about {
 
 .pro-body{
   position: relative;
+  padding-top: 10px;
 }
 .pro-layover{
   position: absolute;
