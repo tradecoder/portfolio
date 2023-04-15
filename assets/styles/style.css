@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
 }
 
+
 header {
   min-height: 65px;
   background-color: #00182b;
@@ -17,6 +18,11 @@ header {
   border-bottom: solid 5px orange;
   transform: scale(0);
   transition: transform 0.4s ease-in-out;
+}
+.greetings{
+  color:orangered;
+  font-size: larger;
+  font-weight: 500;
 }
 .navbar-nav a:hover:after {
   transform: scale(1);
@@ -46,9 +52,8 @@ section#about {
    min-height: 100vh;
  }
 .name {
-  font-size: 2.5rem;
-  font-family: merienda;
-  color: dodgerblue;
+  font-size: 2rem; 
+  color: #00182d;
 }
 #avatar {
   width: 60%;
@@ -58,12 +63,15 @@ section#about {
   border-radius: 50%;
 }
 
+
 #title {
   padding: 20px 0 0 20px;
   max-width: 100%;
 }
 .title{
-  color: gray;
+  color: orangered;
+  font-size: larger;
+  font-weight: 500;  
 }
 #skills {
   background-color: rgba(255, 255, 255, 0.9);
@@ -80,7 +88,9 @@ section#about {
 
 .about, #education-summary{
   width:400px;
+
 }
+
 
 .text-black{
   color:black;
@@ -191,19 +201,33 @@ color:#aaaaaa;
 .navbar-brand{
   color:#F8F0E3 !important;
 }
-#service-list ul li{
-  font-size: 20px;
-  line-height: 2.2;
+.service-list li{
+  font-size: 18px;
+  line-height: 1.8;
   color: chocolate;
 }
+.text-orangered{
+  color: orangered;
+}
 
+.text-chocolate{
+  color: chocolate;
+}
+.text-yellow{
+  color: yellow;
+}
 #skills img{
   border-radius: 50%;
   width: 110px;
 }
 #skills img:hover{
-  animation: skill-anim 1s ease-in-out infinite;
-  
+  animation: skill-anim 1s ease-in-out infinite;  
+}
+.bottom-bar{
+  background-color: whitesmoke;
+}
+.text-whitesmoke{
+  color: whitesmoke;
 }
 
 @keyframes skill-anim {
