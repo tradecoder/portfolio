@@ -130,7 +130,7 @@ font-size: 18px;
   color: #dddddd;
   text-align: center;
   font-size: 1.4rem; 
-  border-radius: 0 0 50px 50px !important;
+  border-radius:  50px 50px 0 0!important;
 }
 
 .pro-body{
