@@ -125,6 +125,7 @@ font-size: 18px;
 }
 }
 
+
 .project-header{
   background-color: #00182d;
   color: #dddddd;
@@ -175,7 +176,9 @@ font-size: 18px;
 .pro-card-body{
   padding:0 0 10px 0 !important;
 }
-
+.override-card{
+  border-radius: 50px 50px 10px 10px !important;
+}
 #certification{
   padding:30px 0;
 }
