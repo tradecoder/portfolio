@@ -87,11 +87,12 @@ border-radius: 0 0 30px 30px;
   font-size: larger;
   font-weight: 500;  
 }
+
 .apply-content-theme{
 background-color: whitesmoke;
 font-size: 18px;
 }
-#skills {  
+#skills, #my-services, #quality-assurance {  
   padding-top: 60px;
   font-size:18px;
 
